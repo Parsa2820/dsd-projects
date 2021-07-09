@@ -1,0 +1,28 @@
+Command line:
+   ThreeBcdDividerChecherTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63214
+
+Sun Apr 04 00:23:11 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.14 Meg
+
+ Total Signals          : 627
+ Total Nets             : 2931
+ Total Signal Drivers   : 288
+ Total Blocks           : 64
+ Total Primitive Blocks : 44
+ Total Processes        : 290
+ Total Traceable Variables  : 34
+ Total Scalar Nets and Variables : 3027
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 5154.14 Meg
+
+Sun Apr 04 00:23:28 2021
+

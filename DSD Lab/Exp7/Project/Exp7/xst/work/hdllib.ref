@@ -1,0 +1,3 @@
+MO uart_transmitter NULL uart_transmitter.v vlg08/uart__transmitter.bin 1620765004
+MO stimulus NULL stimulus.v vlg0E/stimulus.bin 1620765004
+MO uart_receiver NULL uart_receiver.v vlg48/uart__receiver.bin 1620765004

@@ -1,0 +1,15 @@
+{D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v} {1 {vlog -work work -vopt -stats=none {D:\University\Term4\Digital System Design\HW\HW5\Poject\dff.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} {D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v} {1 {vlog -work work -vopt -stats=none {D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dff_tb
+
+Top level modules:
+	dff_tb
+
+} {} {}}

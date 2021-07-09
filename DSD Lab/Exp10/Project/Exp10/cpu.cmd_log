@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp10/Project/Exp10/cpu.xst" -ofn "D:/University/Term4/DSD Lab/Exp10/Project/Exp10/cpu.syr" 

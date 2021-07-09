@@ -1,0 +1,15 @@
+{D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter.v} {1 {vlog -work work -vopt -stats=none {D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transition_counter
+
+Top level modules:
+	transition_counter
+
+} {} {}} {D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v} {1 {vlog -work work -vopt -stats=none {D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transition_counter_tb
+
+Top level modules:
+	transition_counter_tb
+
+} {} {}}

@@ -1,0 +1,4 @@
+verilog isim_temp "uart_transmitter.v"
+verilog isim_temp "uart_receiver.v"
+verilog isim_temp "stimulus.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

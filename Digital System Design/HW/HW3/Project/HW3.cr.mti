@@ -1,0 +1,22 @@
+{D:/University/Term4/Digital System Design/HW/HW3/Project/stimulus.v} {1 {vlog -work work -vopt -stats=none {D:\University\Term4\Digital System Design\HW\HW3\Project\stimulus.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module stimulus
+
+Top level modules:
+	stimulus
+
+} {} {}} {D:/University/Term4/Digital System Design/HW/HW3/Project/ram.v} {1 {vlog -work work -vopt -stats=none {D:/University/Term4/Digital System Design/HW/HW3/Project/ram.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} {D:/University/Term4/Digital System Design/HW/HW3/Project/tri_state_buffer.v} {1 {vlog -work work -vopt -stats=none {D:/University/Term4/Digital System Design/HW/HW3/Project/tri_state_buffer.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tri_state_buffer
+
+Top level modules:
+	tri_state_buffer
+
+} {} {}}

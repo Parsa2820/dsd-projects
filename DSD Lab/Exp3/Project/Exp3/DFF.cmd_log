@@ -1,0 +1,3 @@
+vhdtdtfi -lib work {D:/University/Term4/DSD Lab/Exp3/Project/Exp3/DFF.v} -lang verilog -prj Exp3 -o DFF.spl -module DFF -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3adsp DFF.spl {D:/University/Term4/DSD Lab/Exp3/Project/Exp3/DFF.sym} 
+vhdtdtfi -lang verilog -prj Exp3 -o "D:/University/Term4/DSD Lab/Exp3/Project/Exp3/DFF.tfi" -lib work "D:/University/Term4/DSD Lab/Exp3/Project/Exp3//DFF.v" -module DFF -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

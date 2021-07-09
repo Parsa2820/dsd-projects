@@ -1,0 +1,11 @@
+[Inputs]
+d
+clk
+resetBar
+[Outputs]
+q
+qBar
+[BiDir]
+[ATTRIBUTES]
+VeriModel DFF
+

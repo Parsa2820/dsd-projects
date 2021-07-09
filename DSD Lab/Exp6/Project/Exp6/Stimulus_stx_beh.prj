@@ -1,0 +1,3 @@
+verilog isim_temp "Incubator.v"
+verilog isim_temp "Stimulus.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

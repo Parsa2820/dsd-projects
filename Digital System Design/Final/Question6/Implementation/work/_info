@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/University/Term4/Digital System Design/HW/HW5/Poject
+T_opt
+!s110 1625749937
+VjnBAiVFDeAm^3?Y9j99nJ3
+04 18 4 work transition_counter fast 0
+=1-40b076acc2c0-60e6f9b1-19c-2dc4
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1625770412
+V5QTV2MOil2eLfagdKGI]22
+04 21 4 work transition_counter_tb fast 0
+=1-40b076acc2c0-60e749ac-53-4628
+R1
+R2
+n@_opt1
+R3
+vtransition_counter
+!s110 1625770241
+!i10b 1
+!s100 ol9d<DJQiJ:Dc_YdJVCgc1
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IR=<KgI@K8H?go[hYVnC3F3
+Z5 dD:/University/Term4/Digital System Design/Final/Question6/Implementation
+w1625770231
+8D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter.v
+FD:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter.v
+!i122 16
+L0 1 31
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1625770241.000000
+!s107 D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtransition_counter_tb
+!s110 1625770407
+!i10b 1
+!s100 >fMTzfb?aI8^o@URNI<ka2
+R4
+IJB6GzhD6a1n87Bme6QX1o0
+R5
+w1625770385
+8D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v
+FD:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v
+!i122 17
+L0 1 35
+R6
+R7
+r1
+!s85 0
+31
+!s108 1625770407.000000
+!s107 D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v|
+!i113 0
+R8
+R2

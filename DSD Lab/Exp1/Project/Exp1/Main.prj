@@ -1,0 +1,6 @@
+verilog work "FullAdder.v"
+verilog work "SixBitEqual.v"
+verilog work "FiveBitAdder.v"
+verilog work "ThreeBcdDividerChecker.v"
+verilog work "ElevenBcdDividerChecker.v"
+verilog work "Main.v"

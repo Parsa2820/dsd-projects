@@ -1,0 +1,184 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile {D:/University/Term4/Digital System Design/Final/Question6/Implementation/TransitionCounter.mpf}
+# Loading project TransitionCounter
+# Compile of transition_counter.v was successful.
+# Compile of transition_counter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.transition_counter
+# vsim -voptargs="+acc" work.transition_counter 
+# Start time: 17:42:17 on Jul 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.transition_counter(fast)
+add wave -position end  sim:/transition_counter/in
+add wave -position end  sim:/transition_counter/reset
+add wave -position end  sim:/transition_counter/clk
+add wave -position end  sim:/transition_counter/o
+add wave -position end  sim:/transition_counter/real_o
+add wave -position end  sim:/transition_counter/previous_in
+run
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 17:43:37 on Jul 08,2021, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 17:43:37 on Jul 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+add wave -position end  sim:/transition_counter_tb/in
+add wave -position end  sim:/transition_counter_tb/reset
+add wave -position end  sim:/transition_counter_tb/clk
+add wave -position end  sim:/transition_counter_tb/o
+run
+add wave -position end  sim:/transition_counter_tb/uut/previous_in
+# Causality operation skipped due to absence of debug database file
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint  \
+sim:/transition_counter_tb/uut/in \
+sim:/transition_counter_tb/uut/reset \
+sim:/transition_counter_tb/uut/clk \
+sim:/transition_counter_tb/uut/o \
+sim:/transition_counter_tb/uut/real_o \
+sim:/transition_counter_tb/uut/previous_in
+run
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 17:45:01 on Jul 08,2021, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 17:45:01 on Jul 08,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+add wave -position end  sim:/transition_counter_tb/uut/in
+add wave -position end  sim:/transition_counter_tb/uut/reset
+add wave -position end  sim:/transition_counter_tb/uut/clk
+add wave -position end  sim:/transition_counter_tb/uut/o
+add wave -position end  sim:/transition_counter_tb/uut/real_o
+add wave -position end  sim:/transition_counter_tb/uut/previous_in
+run
+# Compile of transition_counter_tb.v was successful.
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 17:46:56 on Jul 08,2021, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 17:46:56 on Jul 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+add wave -position end  sim:/transition_counter_tb/in
+add wave -position end  sim:/transition_counter_tb/reset
+add wave -position end  sim:/transition_counter_tb/clk
+add wave -position end  sim:/transition_counter_tb/o
+add wave -position end  sim:/transition_counter_tb/uut/previous_in
+run
+# Error: real_o is                    1 and o is                    0
+# Error: real_o is                    2 and o is                    1
+# Error: real_o is                    3 and o is                    2
+# Compile of transition_counter_tb.v was successful.
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 17:59:37 on Jul 08,2021, Elapsed time: 0:12:41
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 17:59:37 on Jul 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+add wave -position end  sim:/transition_counter_tb/in
+add wave -position end  sim:/transition_counter_tb/reset
+add wave -position end  sim:/transition_counter_tb/clk
+add wave -position end  sim:/transition_counter_tb/o
+add wave -position end  sim:/transition_counter_tb/uut/previous_in
+run
+# Error: real_o is                    1 and o is                    0
+# Error: real_o is                    2 and o is                    1
+# Error: real_o is                    3 and o is                    2
+# Error: real_o is                    4 and o is                    2
+# Error: real_o is                    4 and o is                    3
+# Error: real_o is                    4 and o is                    3
+# Error: real_o is                    4 and o is                    3
+# Error: real_o is                    4 and o is                    3
+# Error: real_o is                    4 and o is                    3
+# Error: real_o is                    4 and o is                    3
+# Compile of transition_counter_tb.v was successful.
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 20:09:06 on Jul 08,2021, Elapsed time: 2:09:29
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 20:09:06 on Jul 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+run
+# Error: real_o is                    1 and o is                    0
+# Error: real_o is                    2 and o is                    1
+# ** Note: $stop    : D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v(28)
+#    Time: 43 ns  Iteration: 0  Instance: /transition_counter_tb
+# Break in Module transition_counter_tb at D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v line 28
+# Compile of transition_counter.v was successful.
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 20:13:26 on Jul 08,2021, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 20:13:26 on Jul 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+add wave -position end  sim:/transition_counter_tb/in
+add wave -position end  sim:/transition_counter_tb/reset
+add wave -position end  sim:/transition_counter_tb/clk
+add wave -position end  sim:/transition_counter_tb/o
+run
+# Error in                   23: real_o is                    1 and o is                    0
+# Error in                   33: real_o is                    2 and o is                    1
+# ** Note: $stop    : D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v(28)
+#    Time: 43 ns  Iteration: 0  Instance: /transition_counter_tb
+# Break in Module transition_counter_tb at D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v line 28
+# Compile of transition_counter.v was successful.
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 20:15:13 on Jul 08,2021, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 20:15:13 on Jul 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+add wave -position end  sim:/transition_counter_tb/in
+add wave -position end  sim:/transition_counter_tb/reset
+add wave -position end  sim:/transition_counter_tb/clk
+add wave -position end  sim:/transition_counter_tb/o
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v(28)
+#    Time: 43 ns  Iteration: 0  Instance: /transition_counter_tb
+# Break in Module transition_counter_tb at D:/University/Term4/Digital System Design/Final/Question6/Implementation/transition_counter_tb.v line 28
+# Compile of transition_counter_tb.v was successful.
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 20:17:15 on Jul 08,2021, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 20:17:15 on Jul 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+vsim -voptargs=+acc work.transition_counter_tb
+# End time: 20:17:19 on Jul 08,2021, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.transition_counter_tb 
+# Start time: 20:17:19 on Jul 08,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.transition_counter_tb(fast)
+# Loading work.transition_counter(fast)
+# End time: 20:17:38 on Jul 08,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1

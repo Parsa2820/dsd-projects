@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+DFF instance_name (
+    .q(q), 
+    .qBar(qBar), 
+    .d(d), 
+    .clk(clk), 
+    .resetBar(resetBar)
+    );
+
+

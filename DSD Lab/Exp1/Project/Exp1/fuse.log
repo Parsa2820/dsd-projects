@@ -1,0 +1,54 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/University/Term4/DSD Lab/Exp1/Project/Exp1/MainTest_isim_beh.exe -prj D:/University/Term4/DSD Lab/Exp1/Project/Exp1/MainTest_beh.prj work.MainTest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/HalfAdder.v" into library work
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/FullAdder.v" into library work
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/SixBitEqual.v" into library work
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/FiveBitAdder.v" into library work
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" into library work
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ElevenBcdDividerChecker.v" into library work
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/Main.v" into library work
+Analyzing Verilog file "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/MainTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 33: Size mismatch in connection of port <m>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 37: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 38: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 39: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 40: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 41: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 42: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 43: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 44: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 45: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 46: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 47: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 48: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 25: Size mismatch in connection of port <a4>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 29: Size mismatch in connection of port <a4>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ThreeBcdDividerChecker.v" Line 36: Size mismatch in connection of port <b5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ElevenBcdDividerChecker.v" Line 25: Size mismatch in connection of port <a4>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ElevenBcdDividerChecker.v" Line 29: Size mismatch in connection of port <a4>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ElevenBcdDividerChecker.v" Line 33: Size mismatch in connection of port <m>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ElevenBcdDividerChecker.v" Line 36: Size mismatch in connection of port <a5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ElevenBcdDividerChecker.v" Line 37: Size mismatch in connection of port <a5>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/ElevenBcdDividerChecker.v" Line 38: Size mismatch in connection of port <a5>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module HalfAdder
+Compiling module FullAdder
+Compiling module FiveBitAdder
+Compiling module SixBitEqual
+Compiling module ThreeBcdDividerChecker
+Compiling module ElevenBcdDividerChecker
+Compiling module Main
+Compiling module MainTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\MainTest_isim_beh.exe.sim\libPortability.dll".
+Compiled 9 Verilog Units
+Built simulation executable D:/University/Term4/DSD Lab/Exp1/Project/Exp1/MainTest_isim_beh.exe
+Fuse Memory Usage: 28580 KB
+Fuse CPU Usage: 468 ms

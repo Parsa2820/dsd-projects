@@ -1,0 +1,124 @@
+ISim log file
+Running: D:\University\Term4\DSD Lab\Exp1\Project\Exp1\MainTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/University/Term4/DSD Lab/Exp1/Project/Exp1/MainTest_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance tbdc/fba0/, width 1 of formal port a4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/fba0/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/fba0/, width 1 of formal port m is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/fba1/, width 1 of formal port a4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/fba1/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/fba1/, width 1 of formal port m is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/fba2/, width 1 of formal port m is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe0/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe0/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe0/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe0/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe0/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe0/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe1/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe1/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe1/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe1/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe1/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe1/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe2/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe2/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe2/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe2/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe2/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe2/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe3/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe3/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe3/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe3/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe3/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe3/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe4/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe4/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe4/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe4/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe4/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe4/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe5/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe5/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe5/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe5/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe5/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe5/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe6/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe6/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe6/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe6/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe6/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe6/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe7/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe7/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe7/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe7/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe7/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe7/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe8/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe8/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe8/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe8/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe8/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe8/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe9/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe9/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe9/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe9/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe9/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe9/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe10/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe10/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe10/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe10/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe10/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe10/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe11/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe11/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe11/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe11/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe11/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe11/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe12/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe12/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe12/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe12/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe12/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance tbdc/sbe12/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/fba1/, width 1 of formal port a4 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/fba1/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/fba1/, width 1 of formal port m is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/fba0/, width 1 of formal port a4 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/fba0/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/fba0/, width 1 of formal port m is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/fba2/, width 1 of formal port m is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe0/, width 1 of formal port a5 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe0/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe0/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe0/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe0/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe0/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe0/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe1/, width 1 of formal port a5 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe1/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe1/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe1/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe1/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe1/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe1/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe2/, width 1 of formal port a5 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe2/, width 1 of formal port b5 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe2/, width 1 of formal port b4 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe2/, width 1 of formal port b3 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe2/, width 1 of formal port b2 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe2/, width 1 of formal port b1 is not equal to width 32 of actual constant.
+WARNING:  For instance ebdc/sbe2/, width 1 of formal port b0 is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 600 ns : File "D:/University/Term4/DSD Lab/Exp1/Project/Exp1/MainTest.v" Line 162

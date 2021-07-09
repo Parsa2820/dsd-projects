@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}مقدمه}{2}%
+\contentsline {section}{\numberline {2}چارچوب نظری و شرح آزمایش}{2}%
+\contentsline {section}{\numberline {3}گزارش متنی}{2}%
+\contentsline {section}{\numberline {4}فرکانس کاری مدار}{7}%
+\contentsline {section}{\numberline {5}تست مدار}{7}%
+\contentsline {section}{\numberline {6}شماتیک}{7}%

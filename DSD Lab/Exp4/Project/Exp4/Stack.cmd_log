@@ -1,0 +1,47 @@
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd3400a-fg676-4 "Stack.ngc" Stack.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-4 -cm area -ir off -pr off -c 100 -o Stack_map.ncd Stack.ngd Stack.pcf 
+par -w -intstyle ise -ol high -t 1 Stack_map.ncd Stack.ncd Stack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Stack.twx Stack.ncd -o Stack.twr Stack.pcf 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd3400a-fg676-4 "Stack.ngc" Stack.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-4 -cm area -ir off -pr off -c 100 -o Stack_map.ncd Stack.ngd Stack.pcf 
+par -w -intstyle ise -ol high -t 1 Stack_map.ncd Stack.ncd Stack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Stack.twx Stack.ncd -o Stack.twr Stack.pcf 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd3400a-fg676-4 "Stack.ngc" Stack.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-4 -cm area -ir off -pr off -c 100 -o Stack_map.ncd Stack.ngd Stack.pcf 
+par -w -intstyle ise -ol high -t 1 Stack_map.ncd Stack.ncd Stack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Stack.twx Stack.ncd -o Stack.twr Stack.pcf 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd3400a-fg676-4 "Stack.ngc" Stack.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-4 -cm area -ir off -pr off -c 100 -o Stack_map.ncd Stack.ngd Stack.pcf 
+par -w -intstyle ise -ol high -t 1 Stack_map.ncd Stack.ncd Stack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Stack.twx Stack.ncd -o Stack.twr Stack.pcf 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd3400a-fg676-4 "Stack.ngc" Stack.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-4 -cm area -ir off -pr off -c 100 -o Stack_map.ncd Stack.ngd Stack.pcf 
+par -w -intstyle ise -ol high -t 1 Stack_map.ncd Stack.ncd Stack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Stack.twx Stack.ncd -o Stack.twr Stack.pcf 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd3400a-fg676-4 "Stack.ngc" Stack.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-4 -cm area -ir off -pr off -c 100 -o Stack_map.ncd Stack.ngd Stack.pcf 
+par -w -intstyle ise -ol high -t 1 Stack_map.ncd Stack.ncd Stack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Stack.twx Stack.ncd -o Stack.twr Stack.pcf 
+xst -intstyle ise -ifn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.xst" -ofn "D:/University/Term4/DSD Lab/Exp4/Project/Exp4/Stack.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd3400a-fg676-4 "Stack.ngc" Stack.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-4 -cm area -ir off -pr off -c 100 -o Stack_map.ncd Stack.ngd Stack.pcf 
+par -w -intstyle ise -ol high -t 1 Stack_map.ncd Stack.ncd Stack.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Stack.twx Stack.ncd -o Stack.twr Stack.pcf 

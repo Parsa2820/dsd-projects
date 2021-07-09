@@ -1,0 +1,5 @@
+set -tmpdir "D:/University/Term4/DSD Lab/Exp3/Project/Exp3/xst/projnav.tmp"
+set -xsthdpdir "D:/University/Term4/DSD Lab/Exp3/Project/Exp3/xst"
+elaborate
+-ifn DFF.prj
+-ifmt mixed

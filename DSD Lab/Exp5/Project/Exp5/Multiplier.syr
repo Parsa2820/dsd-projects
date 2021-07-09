@@ -1,0 +1,623 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:1583 - You are using an internal switch '-use_new_parser'.
+WARNING:Xst:3152 - You have chosen to run a version of XST which is not the default solution
+   for the specified device family. You are free to use it in order to take
+   advantage of its enhanced HDL parsing/elaboration capabilities. However,
+   please be aware that you may be impacted by  language support differences.
+   This version may also result in circuit performance and device utilization
+   differences for your particular design. You can always revert back to the
+   default XST solution by setting the "use_new_parser" option to value "no" 
+   on the XST command line or in the XST process properties panel.
+Reading design: Multiplier.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Multiplier.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Multiplier"
+Output Format                      : NGC
+Target Device                      : xc3sd3400a-4-fg676
+
+---- Source Options
+Use New Parser                     : yes
+Top Module Name                    : Multiplier
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" into library work
+Parsing module <Multiplier>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Multiplier>.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 72: Signal <multiplicand> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 73: Signal <multiplier> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 76: Signal <sub> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 77: Signal <a> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 78: Signal <add> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 79: Signal <a> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 83: Signal <q> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 84: Signal <q_minus1> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 85: Signal <shift_amount> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v" Line 90: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Multiplier>.
+    Related source file is "D:\University\Term4\DSD Lab\Exp5\Project\Exp5\multiplier.v".
+        N = 4
+    Found 1-bit register for signal <process>.
+    Found 1-bit register for signal <in_process>.
+    Found 1-bit register for signal <sub>.
+    Found 1-bit register for signal <add>.
+    Found 4-bit register for signal <shift_amount>.
+    Found 1-bit register for signal <load>.
+    Found 5-bit subtractor for signal <GND_1_o_GND_1_o_sub_9_OUT> created at line 58.
+    Found 4-bit subtractor for signal <a[3]_m[3]_sub_28_OUT> created at line 77.
+    Found 4-bit adder for signal <a[3]_m[3]_add_28_OUT> created at line 79.
+    Found 4-bit adder for signal <counter[3]_shift_amount[3]_add_32_OUT> created at line 90.
+    Found 9-bit shifter arithmetic right for signal <a[3]_shift_amount[3]_shift_right_31_OUT> created at line 85
+WARNING:Xst:737 - Found 1-bit latch for signal <a<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <a<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <a<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <a<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <q_minus1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <m<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <m<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <m<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <m<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <q<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <q<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <q<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <q<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <counter<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <counter<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <counter<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <counter<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_10_o> created at line 58
+    Found 1-bit comparator equal for signal <q[0]_q[1]_equal_11_o> created at line 58
+    Found 32-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_13_o> created at line 58
+    Found 1-bit comparator equal for signal <q[1]_q[2]_equal_14_o> created at line 58
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   9 D-type flip-flop(s).
+	inferred  17 Latch(s).
+	inferred   4 Comparator(s).
+	inferred   8 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <Multiplier> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+ 5-bit subtractor                                      : 1
+# Registers                                            : 6
+ 1-bit register                                        : 5
+ 4-bit register                                        : 1
+# Latches                                              : 17
+ 1-bit latch                                           : 17
+# Comparators                                          : 4
+ 1-bit comparator equal                                : 2
+ 32-bit comparator greater                             : 2
+# Multiplexers                                         : 8
+ 1-bit 2-to-1 multiplexer                              : 4
+ 4-bit 2-to-1 multiplexer                              : 4
+# Logic shifters                                       : 1
+ 9-bit shifter arithmetic right                        : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+ 5-bit subtractor                                      : 1
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+# Comparators                                          : 4
+ 1-bit comparator equal                                : 2
+ 32-bit comparator greater                             : 2
+# Multiplexers                                         : 11
+ 1-bit 2-to-1 multiplexer                              : 8
+ 4-bit 2-to-1 multiplexer                              : 3
+# Logic shifters                                       : 1
+ 9-bit shifter arithmetic right                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <shift_amount_2> (without init value) has a constant value of 0 in block <Multiplier>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <shift_amount_3> (without init value) has a constant value of 0 in block <Multiplier>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Multiplier> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Multiplier, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Multiplier.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 65
+#      GND                         : 1
+#      LUT2                        : 7
+#      LUT2_L                      : 1
+#      LUT3                        : 17
+#      LUT3_L                      : 1
+#      LUT4                        : 26
+#      LUT4_D                      : 3
+#      LUT4_L                      : 1
+#      MUXF5                       : 7
+#      VCC                         : 1
+# FlipFlops/Latches                : 24
+#      FD                          : 1
+#      FDR                         : 1
+#      FDRE                        : 1
+#      FDRS                        : 1
+#      FDRSE                       : 2
+#      FDSE                        : 1
+#      LD                          : 8
+#      LDC                         : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 9
+#      OBUF                        : 10
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3sd3400afg676-4 
+
+ Number of Slices:                       34  out of  23872     0%  
+ Number of Slice Flip Flops:             20  out of  47744     0%  
+ Number of 4 input LUTs:                 56  out of  47744     0%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    469     4%  
+    IOB Flip Flops:                       4
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------+------------------------+-------+
+Clock Signal                                 | Clock buffer(FF name)  | Load  |
+---------------------------------------------+------------------------+-------+
+clk                                          | BUFGP                  | 7     |
+load_process_OR_33_o(load_process_OR_33_o1:O)| NONE(*)(q_3)           | 4     |
+load                                         | NONE(m_2)              | 4     |
+process                                      | NONE(a_3)              | 9     |
+---------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+load(load:Q)                       | NONE(counter_1)        | 9     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.110ns (Maximum Frequency: 163.666MHz)
+   Minimum input arrival time before clock: 4.947ns
+   Maximum output required time after clock: 6.005ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.621ns (frequency: 216.403MHz)
+  Total number of paths / destination ports: 15 / 15
+-------------------------------------------------------------------------
+Delay:               4.621ns (Levels of Logic = 2)
+  Source:            in_process (FF)
+  Destination:       sub (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: in_process to sub
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             6   0.591   0.749  in_process (in_process_OBUF)
+     LUT2:I1->O            3   0.643   0.534  in_process_inv11 (in_process_inv_0)
+     LUT4:I3->O            4   0.648   0.587  _n01461 (_n0146)
+     FDRSE:S                   0.869          sub
+    ----------------------------------------
+    Total                      4.621ns (2.751ns logic, 1.870ns route)
+                                       (59.5% logic, 40.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'load_process_OR_33_o'
+  Clock period: 3.836ns (frequency: 260.688MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               3.836ns (Levels of Logic = 3)
+  Source:            q_1 (LATCH)
+  Destination:       q_0 (LATCH)
+  Source Clock:      load_process_OR_33_o falling
+  Destination Clock: load_process_OR_33_o falling
+
+  Data Path: q_1 to q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.728   0.837  q_1 (q_1)
+     LUT3:I1->O            1   0.643   0.000  Mmux_q[3]_multiplier[0]_MUX_118_o132_SW02 (Mmux_q[3]_multiplier[0]_MUX_118_o132_SW01)
+     MUXF5:I0->O           1   0.276   0.452  Mmux_q[3]_multiplier[0]_MUX_118_o132_SW0_f5 (Mmux_q[3]_multiplier[0]_MUX_118_o132_SW0_f5)
+     LUT3:I2->O            1   0.648   0.000  Mmux_q[3]_multiplier[0]_MUX_118_o132 (Mmux_q[3]_multiplier[0]_MUX_118_o132)
+     LD:D                      0.252          q_0
+    ----------------------------------------
+    Total                      3.836ns (2.547ns logic, 1.289ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'process'
+  Clock period: 6.110ns (frequency: 163.666MHz)
+  Total number of paths / destination ports: 55 / 9
+-------------------------------------------------------------------------
+Delay:               6.110ns (Levels of Logic = 5)
+  Source:            a_0 (LATCH)
+  Destination:       a_0 (LATCH)
+  Source Clock:      process falling
+  Destination Clock: process falling
+
+  Data Path: a_0 to a_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              6   0.728   0.672  a_0 (a_0)
+     LUT4_D:I3->O          3   0.648   0.611  Mmux_q[3]_multiplier[3]_MUX_112_o111 (Mmux_q[3]_multiplier[3]_MUX_112_o11)
+     LUT3:I1->O            2   0.643   0.450  Mmux_a[3]_a[3]_mux_30_OUT_rs_xor<3>11_SW0 (N15)
+     LUT4:I3->O            3   0.648   0.534  Mmux_a[3]_a[3]_mux_30_OUT_rs_xor<3>11 (Sh17)
+     LUT4:I3->O            1   0.648   0.000  Sh5_G (N21)
+     MUXF5:I1->O           1   0.276   0.000  Sh5 (Sh14)
+     LDC:D                     0.252          a_0
+    ----------------------------------------
+    Total                      6.110ns (3.843ns logic, 2.267ns route)
+                                       (62.9% logic, 37.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              4.947ns (Levels of Logic = 3)
+  Source:            start (PAD)
+  Destination:       sub (FF)
+  Destination Clock: clk rising
+
+  Data Path: start to sub
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   0.849   0.812  start_IBUF (start_IBUF)
+     LUT2:I0->O            3   0.648   0.534  in_process_inv11 (in_process_inv_0)
+     LUT4:I3->O            4   0.648   0.587  _n01461 (_n0146)
+     FDRSE:S                   0.869          sub
+    ----------------------------------------
+    Total                      4.947ns (3.014ns logic, 1.933ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'load_process_OR_33_o'
+  Total number of paths / destination ports: 5 / 4
+-------------------------------------------------------------------------
+Offset:              2.547ns (Levels of Logic = 3)
+  Source:            multiplier<3> (PAD)
+  Destination:       q_3 (LATCH)
+  Destination Clock: load_process_OR_33_o falling
+
+  Data Path: multiplier<3> to q_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.849   0.527  multiplier_3_IBUF (multiplier_3_IBUF)
+     LUT3:I1->O            1   0.643   0.000  Mmux_q[3]_multiplier[3]_MUX_112_o1321 (Mmux_q[3]_multiplier[3]_MUX_112_o1321)
+     MUXF5:I1->O           1   0.276   0.000  Mmux_q[3]_multiplier[3]_MUX_112_o132_f5 (Mmux_q[3]_multiplier[3]_MUX_112_o132)
+     LD:D                      0.252          q_3
+    ----------------------------------------
+    Total                      2.547ns (2.020ns logic, 0.527ns route)
+                                       (79.3% logic, 20.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'load'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 1)
+  Source:            multiplicand<2> (PAD)
+  Destination:       m_2 (LATCH)
+  Destination Clock: load falling
+
+  Data Path: multiplicand<2> to m_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  multiplicand_2_IBUF (multiplicand_2_IBUF)
+     LD:D                      0.252          m_2
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'process'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              5.917ns (Levels of Logic = 1)
+  Source:            a_1 (LATCH)
+  Destination:       result<5> (PAD)
+  Source Clock:      process falling
+
+  Data Path: a_1 to result<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              6   0.728   0.669  a_1 (a_1)
+     OBUF:I->O                 4.520          result_5_OBUF (result<5>)
+    ----------------------------------------
+    Total                      5.917ns (5.248ns logic, 0.669ns route)
+                                       (88.7% logic, 11.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'load_process_OR_33_o'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              6.005ns (Levels of Logic = 1)
+  Source:            q_1 (LATCH)
+  Destination:       result<1> (PAD)
+  Source Clock:      load_process_OR_33_o falling
+
+  Data Path: q_1 to result<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.728   0.757  q_1 (q_1)
+     OBUF:I->O                 4.520          result_1_OBUF (result<1>)
+    ----------------------------------------
+    Total                      6.005ns (5.248ns logic, 0.757ns route)
+                                       (87.4% logic, 12.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.780ns (Levels of Logic = 1)
+  Source:            in_process (FF)
+  Destination:       in_process (PAD)
+  Source Clock:      clk rising
+
+  Data Path: in_process to in_process
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             6   0.591   0.669  in_process (in_process_OBUF)
+     OBUF:I->O                 4.520          in_process_OBUF (in_process)
+    ----------------------------------------
+    Total                      5.780ns (5.111ns logic, 0.669ns route)
+                                       (88.4% logic, 11.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+clk                 |    4.621|         |         |         |
+load_process_OR_33_o|         |    3.664|         |         |
+process             |         |    4.921|         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock load_process_OR_33_o
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+clk                 |         |         |    7.737|         |
+load                |         |         |    6.158|         |
+load_process_OR_33_o|         |         |    3.836|         |
+process             |         |         |    6.197|         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock process
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+clk                 |         |         |    7.607|         |
+load                |         |         |    6.100|         |
+load_process_OR_33_o|         |         |    2.736|         |
+process             |         |         |    6.110|         |
+--------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.21 secs
+ 
+WARNING:Xst:3152 - You have chosen to run a version of XST which is not the default solution
+   for the specified device family. You are free to use it in order to take
+   advantage of its enhanced HDL parsing/elaboration capabilities. However,
+   please be aware that you may be impacted by  language support differences.
+   This version may also result in circuit performance and device utilization
+   differences for your particular design. You can always revert back to the
+   default XST solution by setting the "use_new_parser" option to value "no" 
+   on the XST command line or in the XST process properties panel.
+--> 
+
+Total memory usage is 4470344 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   32 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

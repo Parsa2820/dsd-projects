@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}مقدمه}{2}%
+\contentsline {section}{\numberline {2}چارچوب نظری و شرح آزمایش}{2}%
+\contentsline {subsection}{\numberline {2.1}بخش اول}{2}%
+\contentsline {subsection}{\numberline {2.2}بخش دوم}{2}%
+\contentsline {section}{\numberline {3}گزارش متنی بخش \lr {Place \& Route}}{3}%
+\contentsline {section}{\numberline {4}تست مدار}{5}%

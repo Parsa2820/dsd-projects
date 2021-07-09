@@ -1,0 +1,476 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: Stack.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Stack.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Stack"
+Output Format                      : NGC
+Target Device                      : xc3sd3400a-4-fg676
+
+---- Source Options
+Top Module Name                    : Stack
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Stack.v" in library work
+Module <Stack> compiled
+No errors in compilation
+Analysis of file <"Stack.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Stack> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Stack>.
+Module <Stack> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Stack>.
+    Related source file is "Stack.v".
+INFO:Xst:1608 - Relative priorities of control signals on register <Empty> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <stack> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+INFO:Xst:1608 - Relative priorities of control signals on register <Full> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 4-bit register for signal <Data_Out>.
+    Found 1-bit register for signal <Empty>.
+    Found 1-bit register for signal <Full>.
+    Found 4-bit register for signal <stackPointer>.
+    Summary:
+	inferred  42 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <Stack> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Registers                                            : 42
+ 1-bit register                                        : 42
+# Multiplexers                                         : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+# Multiplexers                                         : 1
+ 4-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Stack> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Stack, actual ratio is 0.
+FlipFlop stackPointer_0 has been replicated 2 time(s)
+FlipFlop stackPointer_1 has been replicated 1 time(s)
+FlipFlop stackPointer_2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 46
+ Flip-Flops                                            : 46
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Stack.ngr
+Top Level Output File Name         : Stack
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 174
+#      GND                         : 1
+#      LUT2                        : 31
+#      LUT2_L                      : 3
+#      LUT3                        : 45
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 72
+#      LUT4_D                      : 3
+#      MUXF5                       : 13
+#      MUXF6                       : 4
+# FlipFlops/Latches                : 46
+#      FDCPE_1                     : 46
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 7
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3sd3400afg676-4 
+
+ Number of Slices:                      123  out of  23872     0%  
+ Number of Slice Flip Flops:             46  out of  47744     0%  
+ Number of 4 input LUTs:                156  out of  47744     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    469     2%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+RstN                               | BUFGP                  | 46    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------+------------------------+-------+
+Control Signal                                   | Buffer(FF name)        | Load  |
+-------------------------------------------------+------------------------+-------+
+stackPointer_0_and0000(stackPointer_0_and00001:O)| NONE(stackPointer_0)   | 3     |
+stackPointer_0_and0001(stackPointer_0_and00011:O)| NONE(stackPointer_0)   | 3     |
+stackPointer_1_and0000(stackPointer_1_and00002:O)| NONE(stackPointer_1)   | 2     |
+stackPointer_1_and0001(stackPointer_1_and00011:O)| NONE(stackPointer_1)   | 2     |
+stackPointer_2_and0000(stackPointer_2_and0000:O) | NONE(stackPointer_2)   | 2     |
+stackPointer_2_and0001(stackPointer_2_and0001:O) | NONE(stackPointer_2)   | 2     |
+Data_Out_0_and0000(Data_Out_0_and00001:O)        | NONE(Data_Out_0)       | 1     |
+Data_Out_0_and0001(Data_Out_0_and00011:O)        | NONE(Data_Out_0)       | 1     |
+Data_Out_1_and0000(Data_Out_1_and00001:O)        | NONE(Data_Out_1)       | 1     |
+Data_Out_1_and0001(Data_Out_1_and00011:O)        | NONE(Data_Out_1)       | 1     |
+Data_Out_2_and0000(Data_Out_2_and00001:O)        | NONE(Data_Out_2)       | 1     |
+Data_Out_2_and0001(Data_Out_2_and00011:O)        | NONE(Data_Out_2)       | 1     |
+Data_Out_3_and0000(Data_Out_3_and00001:O)        | NONE(Data_Out_3)       | 1     |
+Data_Out_3_and0001(Data_Out_3_and00011:O)        | NONE(Data_Out_3)       | 1     |
+Empty_and0000(Empty_and00001_f5:O)               | NONE(Empty)            | 1     |
+Empty_and0001(_or001211:O)                       | NONE(Empty)            | 1     |
+Full_and0000(Data_Out_0_and000011:O)             | NONE(Full)             | 1     |
+Full_and0001(Full_and00011:O)                    | NONE(Full)             | 1     |
+_and0000(_and00001:O)                            | NONE(stack<0>_3)       | 1     |
+_and0002(_and00021:O)                            | NONE(stack<0>_2)       | 1     |
+_and0003(_and00031:O)                            | NONE(stack<0>_1)       | 1     |
+_and0004(_and00041:O)                            | NONE(stack<0>_0)       | 1     |
+_and0005(_and00051:O)                            | NONE(stack<1>_3)       | 1     |
+_and0007(_and00071:O)                            | NONE(stack<1>_2)       | 1     |
+_and0008(_and00081:O)                            | NONE(stack<1>_1)       | 1     |
+_and0009(_and00091:O)                            | NONE(stack<1>_0)       | 1     |
+_and0010(_and00101:O)                            | NONE(stack<2>_3)       | 1     |
+_and0012(_and00121:O)                            | NONE(stack<2>_2)       | 1     |
+_and0013(_and00131:O)                            | NONE(stack<2>_1)       | 1     |
+_and0014(_and00141:O)                            | NONE(stack<2>_0)       | 1     |
+_and0015(_and00151:O)                            | NONE(stack<3>_3)       | 1     |
+_and0017(_and00171:O)                            | NONE(stack<3>_2)       | 1     |
+_and0018(_and00181:O)                            | NONE(stack<3>_1)       | 1     |
+_and0019(_and00191:O)                            | NONE(stack<3>_0)       | 1     |
+_and0020(_and00201:O)                            | NONE(stack<4>_3)       | 1     |
+_and0022(_and00221:O)                            | NONE(stack<4>_2)       | 1     |
+_and0023(_and00231:O)                            | NONE(stack<4>_1)       | 1     |
+_and0024(_and00241:O)                            | NONE(stack<4>_0)       | 1     |
+_and0025(_and00252:O)                            | NONE(stack<5>_3)       | 1     |
+_and0027(_and00271:O)                            | NONE(stack<5>_2)       | 1     |
+_and0028(_and00281:O)                            | NONE(stack<5>_1)       | 1     |
+_and0029(_and00291:O)                            | NONE(stack<5>_0)       | 1     |
+_and0030(_and00302:O)                            | NONE(stack<6>_3)       | 1     |
+_and0032(_and00321:O)                            | NONE(stack<6>_2)       | 1     |
+_and0033(_and00331:O)                            | NONE(stack<6>_1)       | 1     |
+_and0034(_and00341:O)                            | NONE(stack<6>_0)       | 1     |
+_and0035(_and00351:O)                            | NONE(stack<7>_3)       | 1     |
+_and0037(_and00371:O)                            | NONE(stack<7>_2)       | 1     |
+_and0038(_and00381:O)                            | NONE(stack<7>_1)       | 1     |
+_and0039(_and00391:O)                            | NONE(stack<7>_0)       | 1     |
+_or0000(_or00001:O)                              | NONE(stack<0>_3)       | 1     |
+_or0001(_or00011:O)                              | NONE(stack<0>_2)       | 1     |
+_or0002(_or00021:O)                              | NONE(stack<0>_1)       | 1     |
+_or0003(_or00031:O)                              | NONE(stack<0>_0)       | 1     |
+_or0004(_or00041:O)                              | NONE(stack<1>_3)       | 1     |
+_or0005(_or00051:O)                              | NONE(stack<1>_2)       | 1     |
+_or0006(_or00061:O)                              | NONE(stack<1>_1)       | 1     |
+_or0007(_or00071:O)                              | NONE(stack<1>_0)       | 1     |
+_or0008(_or00081:O)                              | NONE(stack<2>_3)       | 1     |
+_or0009(_or00091:O)                              | NONE(stack<2>_2)       | 1     |
+_or0010(_or00101:O)                              | NONE(stack<2>_1)       | 1     |
+_or0011(_or00111:O)                              | NONE(stack<2>_0)       | 1     |
+_or0012(_or00121:O)                              | NONE(stack<3>_3)       | 1     |
+_or0013(_or00131:O)                              | NONE(stack<3>_2)       | 1     |
+_or0014(_or00141:O)                              | NONE(stack<3>_1)       | 1     |
+_or0015(_or00151:O)                              | NONE(stack<3>_0)       | 1     |
+_or0016(_or00161:O)                              | NONE(stack<4>_3)       | 1     |
+_or0017(_or00171:O)                              | NONE(stack<4>_2)       | 1     |
+_or0018(_or00181:O)                              | NONE(stack<4>_1)       | 1     |
+_or0019(_or00191:O)                              | NONE(stack<4>_0)       | 1     |
+_or0020(_or00201:O)                              | NONE(stack<5>_3)       | 1     |
+_or0021(_or00211:O)                              | NONE(stack<5>_2)       | 1     |
+_or0022(_or00221:O)                              | NONE(stack<5>_1)       | 1     |
+_or0023(_or00231:O)                              | NONE(stack<5>_0)       | 1     |
+_or0024(_or00241:O)                              | NONE(stack<6>_3)       | 1     |
+_or0025(_or00251:O)                              | NONE(stack<6>_2)       | 1     |
+_or0026(_or00261:O)                              | NONE(stack<6>_1)       | 1     |
+_or0027(_or00271:O)                              | NONE(stack<6>_0)       | 1     |
+_or0028(_or00283:O)                              | NONE(stack<7>_3)       | 1     |
+_or0029(_or00291:O)                              | NONE(stack<7>_2)       | 1     |
+_or0030(_or00301:O)                              | NONE(stack<7>_1)       | 1     |
+_or0031(_or00311:O)                              | NONE(stack<7>_0)       | 1     |
+stackPointer_3_and0000(stackPointer_3_and00003:O)| NONE(stackPointer_3)   | 1     |
+stackPointer_3_and0001(stackPointer_3_and00011:O)| NONE(stackPointer_3)   | 1     |
+-------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.814ns (Maximum Frequency: 207.727MHz)
+   Minimum input arrival time before clock: 6.301ns
+   Maximum output required time after clock: 6.044ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'RstN'
+  Clock period: 4.814ns (frequency: 207.727MHz)
+  Total number of paths / destination ports: 240 / 46
+-------------------------------------------------------------------------
+Delay:               4.814ns (Levels of Logic = 3)
+  Source:            Full (FF)
+  Destination:       stack<3>_3 (FF)
+  Source Clock:      RstN falling
+  Destination Clock: RstN falling
+
+  Data Path: Full to stack<3>_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         11   0.591   1.013  Full (Full_OBUF)
+     LUT2:I1->O            6   0.643   0.749  stackPointer_3_and0000141 (N56)
+     LUT4:I1->O            1   0.643   0.000  _and0016_G (N35)
+     MUXF5:I1->O           4   0.276   0.587  _and0016 (_and0016)
+     FDCPE_1:CE                0.312          stack<3>_3
+    ----------------------------------------
+    Total                      4.814ns (2.465ns logic, 2.349ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'RstN'
+  Total number of paths / destination ports: 188 / 46
+-------------------------------------------------------------------------
+Offset:              6.301ns (Levels of Logic = 4)
+  Source:            Push (PAD)
+  Destination:       stack<5>_3 (FF)
+  Destination Clock: RstN falling
+
+  Data Path: Push to stack<5>_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   0.849   1.194  Push_IBUF (Push_IBUF)
+     LUT2:I0->O            1   0.648   0.563  stackPointer_2_and0000211_SW0 (N201)
+     LUT4_D:I0->O          9   0.648   0.852  _or0004111 (N13)
+     LUT4:I2->O            4   0.648   0.587  _and00261 (_and0026)
+     FDCPE_1:CE                0.312          stack<5>_3
+    ----------------------------------------
+    Total                      6.301ns (3.105ns logic, 3.196ns route)
+                                       (49.3% logic, 50.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'RstN'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              6.044ns (Levels of Logic = 1)
+  Source:            Full (FF)
+  Destination:       Full (PAD)
+  Source Clock:      RstN falling
+
+  Data Path: Full to Full
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE_1:C->Q         11   0.591   0.933  Full (Full_OBUF)
+     OBUF:I->O                 4.520          Full_OBUF (Full)
+    ----------------------------------------
+    Total                      6.044ns (5.111ns logic, 0.933ns route)
+                                       (84.6% logic, 15.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.58 secs
+ 
+--> 
+
+Total memory usage is 4513972 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

@@ -1,0 +1,482 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile {D:/University/Term4/Digital System Design/HW/HW5/Poject/DFF.mpf}
+# Loading project DFF
+# Compile of dff.v failed with 15 errors.
+# Compile of dff.v failed with 2 errors.
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:33:21 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/d
+add wave -position end  sim:/dff_tb/clk
+add wave -position end  sim:/dff_tb/reset
+add wave -position end  sim:/dff_tb/q
+add wave -position end  sim:/dff_tb/q_bar
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(36)
+#    Time: 20 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 36
+# Compile of dff_tb.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:34:47 on Jun 08,2021, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:34:47 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/d
+add wave -position end  sim:/dff_tb/clk
+add wave -position end  sim:/dff_tb/reset
+add wave -position end  sim:/dff_tb/q
+add wave -position end  sim:/dff_tb/q_bar
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 83 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff_tb.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:38:29 on Jun 08,2021, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:38:29 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/d
+add wave -position end  sim:/dff_tb/clk
+add wave -position end  sim:/dff_tb/reset
+add wave -position end  sim:/dff_tb/q
+add wave -position end  sim:/dff_tb/q_bar
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:48:18 on Jun 08,2021, Elapsed time: 0:09:49
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:48:18 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/d
+add wave -position end  sim:/dff_tb/clk
+add wave -position end  sim:/dff_tb/reset
+add wave -position end  sim:/dff_tb/q
+add wave -position end  sim:/dff_tb/q_bar
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:50:51 on Jun 08,2021, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:50:51 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/d
+add wave -position end  sim:/dff_tb/clk
+add wave -position end  sim:/dff_tb/reset
+add wave -position end  sim:/dff_tb/q
+add wave -position end  sim:/dff_tb/q_bar
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:53:45 on Jun 08,2021, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:53:45 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/d
+add wave -position end  sim:/dff_tb/clk
+add wave -position end  sim:/dff_tb/reset
+add wave -position end  sim:/dff_tb/q
+add wave -position end  sim:/dff_tb/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:54:36 on Jun 08,2021, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:54:36 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:56:22 on Jun 08,2021, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:56:22 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 20:59:06 on Jun 08,2021, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 20:59:06 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v was successful.
+vsim -vopt work.dff_tb
+# End time: 21:05:09 on Jun 08,2021, Elapsed time: 0:06:03
+# Errors: 0, Warnings: 4
+# vsim -vopt work.dff_tb 
+# Start time: 21:05:09 on Jun 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.dff_tb(fast)
+vsim -voptargs=+acc work.dff_tb
+# End time: 21:05:20 on Jun 08,2021, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 21:05:20 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 21:06:58 on Jun 08,2021, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 21:06:58 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 21:10:48 on Jun 08,2021, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 21:10:48 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 25 ns ###############
+#       Signal: /dff_tb/uut/triger @ sub-iteration 0 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 2 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 4 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 25 ns.
+# Compile of dff.v was successful.
+# Compile of dff_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.dff_tb
+# End time: 21:41:58 on Jun 08,2021, Elapsed time: 0:31:10
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 21:41:58 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 21:42:50 on Jun 08,2021, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 21:42:50 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact {D:\University\Term4\Digital System Design\HW\HW5\Poject\dff_tb.v}
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:43:38 on Jun 08,2021
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:\University\Term4\Digital System Design\HW\HW5\Poject\dff_tb.v 
+# -- Compiling module dff_tb
+# 
+# Top level modules:
+# 	dff_tb
+# End time: 21:43:38 on Jun 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 21:43:51 on Jun 08,2021, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 21:43:51 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 25 ns ###############
+#       Signal: /dff_tb/uut/triger @ sub-iteration 0 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 2 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 4 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 25 ns.
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 21:59:37 on Jun 08,2021, Elapsed time: 0:15:46
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 21:59:37 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 22:00:52 on Jun 08,2021, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 22:00:52 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 22:09:54 on Jun 08,2021, Elapsed time: 0:09:02
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 22:09:54 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position insertpoint  \
+sim:/dff_tb/uut/d \
+sim:/dff_tb/uut/clk \
+sim:/dff_tb/uut/reset \
+sim:/dff_tb/uut/q \
+sim:/dff_tb/uut/q_bar \
+sim:/dff_tb/uut/triger \
+sim:/dff_tb/uut/tmp
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.dff_tb
+# End time: 22:11:40 on Jun 08,2021, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 22:11:40 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+add wave -position end  sim:/dff_tb/uut/tmp
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 25 ns ###############
+#       Signal: /dff_tb/uut/triger @ sub-iteration 0 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/tmp @ sub-iteration 2 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:9)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 4 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/tmp @ sub-iteration 6 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:9)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 8 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 25 ns.
+vsim -voptargs=+acc work.dff_tb
+# End time: 22:18:54 on Jun 08,2021, Elapsed time: 0:07:14
+# Errors: 1, Warnings: 1
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 22:18:55 on Jun 08,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/triger
+add wave -position end  sim:/dff_tb/uut/tmp
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 25 ns ###############
+#       Signal: /dff_tb/uut/triger @ sub-iteration 0 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/tmp @ sub-iteration 2 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:9)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 4 at Value St1 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+#       Signal: /dff_tb/uut/tmp @ sub-iteration 6 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:9)
+#       Signal: /dff_tb/uut/triger @ sub-iteration 8 at Value St0 (D:/University/Term4/Digital System Design/HW/HW5/Poject/dff.v:8)
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 25 ns.
+# Compile of dff.v was successful.
+# Compile of dff_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.dff_tb
+# End time: 22:22:07 on Jun 08,2021, Elapsed time: 0:03:12
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 22:22:07 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/uut/d
+add wave -position end  sim:/dff_tb/uut/clk
+add wave -position end  sim:/dff_tb/uut/reset
+add wave -position end  sim:/dff_tb/uut/q
+add wave -position end  sim:/dff_tb/uut/q_bar
+add wave -position end  sim:/dff_tb/uut/tmp
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 88 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# Compile of dff.v was successful.
+# Compile of dff_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.dff_tb
+# End time: 22:23:25 on Jun 08,2021, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.dff_tb 
+# Start time: 22:23:25 on Jun 08,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.dff_tb(fast)
+# Loading work.dff(fast)
+add wave -position end  sim:/dff_tb/d
+add wave -position end  sim:/dff_tb/clk
+add wave -position end  sim:/dff_tb/reset
+add wave -position end  sim:/dff_tb/q
+add wave -position end  sim:/dff_tb/q_bar
+run
+# ** Note: $stop    : D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v(34)
+#    Time: 93 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at D:/University/Term4/Digital System Design/HW/HW5/Poject/dff_tb.v line 34
+# End time: 22:25:12 on Jun 08,2021, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 1
