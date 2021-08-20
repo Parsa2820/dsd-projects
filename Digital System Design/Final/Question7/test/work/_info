@@ -8,82 +8,92 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/University/Term4/Digital System Design/Final/Question6/Implementation
+Z0 dD:/University/Term4/Digital System Design/Final/Question6/Implementation
 T_opt
-!s110 1625470947
-V`F^<BPhNTVW<HWDzB0;[T3
-04 9 4 work testbench fast 0
-=1-40b076acc2c0-60e2b7e3-4c-281c
+!s110 1625981085
+VR0]]]cQe5eVh;D]hllnSj2
+Z1 04 9 4 work testbench fast 0
+=1-40b076acc2c0-60ea809c-3c9-3734
 o-quiet -auto_acc_if_foreign -work work +acc
-Z0 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
-OL;O;2020.4;71
-vbehavioral
-!s110 1625470939
-!i10b 1
-!s100 n6Zk^iDFdh3BzoZdMLeJi1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I^dHCIPa`^HALENhQLE^]d0
-Z2 dD:/University/Term4/Digital System Design/Final/Question7/test
-w1625470933
-Z3 8D:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v
-Z4 FD:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v
-!i122 5
-L0 1 11
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OL;L;2020.4;71
-r1
-!s85 0
-31
-!s108 1625470939.000000
-Z7 !s107 D:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v|
-Z8 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v|
-!i113 0
-Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
-vdataflow
-!s110 1625470863
-!i10b 1
-!s100 Vjce:<_@n3R3Wzk;YWGDD3
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1625981039
+VC@Ydia^Lni0L^<Hi?g^EA3
 R1
-IK]ZLF=:U>5]:JZE582_HH0
+=1-40b076acc2c0-60ea806e-2fa-24e8
+o-quiet -auto_acc_if_foreign -work work
 R2
-w1625470857
+n@_opt1
 R3
-R4
-!i122 4
-L0 2 11
-R5
-R6
+R0
+vbehavioral
+!s110 1625981027
+!i10b 1
+!s100 5cXi1=P<m6Dkoo7M5?[=12
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRGeVNSd6::`=Zm9B4W:CA2
+Z5 dD:/University/Term4/Digital System Design/Final/Question7/test
+w1625980730
+Z6 8D:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v
+Z7 FD:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v
+!i122 16
+Z8 L0 1 78
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2020.4;71
 r1
 !s85 0
 31
-!s108 1625470863.000000
-R7
-R8
+!s108 1625981027.000000
+Z11 !s107 D:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\University\Term4\Digital System Design\Final\Question7\test\behavioral.v|
 !i113 0
-R9
-R0
-vtestbench
-!s110 1625470721
-!i10b 1
-!s100 M9<QEnT8NI[aG3mfR1XF@0
-R1
-IU3K?ZHI2LeWSo7jin^?_^2
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
-w1625470700
+vdataflow
+!s110 1625980699
+!i10b 1
+!s100 >^1OdgdHE6l@e=ZGzfk_93
+R4
+IBW8`=@dSoA0ha9zI5V1UJ0
+R5
+w1625980694
+R6
+R7
+!i122 14
+R8
+R9
+R10
+r1
+!s85 0
+31
+!s108 1625980699.000000
+R11
+R12
+!i113 0
+R13
+R2
+vtestbench
+!s110 1625981024
+!i10b 1
+!s100 [9P=j04m:8nW3HMkP^POS2
+R4
+IY:k>J<S3d=zzGYh^KzeNe2
+R5
+w1625981020
 8D:\University\Term4\Digital System Design\Final\Question7\test\testbench.v
 FD:\University\Term4\Digital System Design\Final\Question7\test\testbench.v
-!i122 3
-L0 1 24
-R5
-R6
+!i122 15
+L0 1 99
+R9
+R10
 r1
 !s85 0
 31
-!s108 1625470721.000000
+!s108 1625981024.000000
 !s107 D:\University\Term4\Digital System Design\Final\Question7\test\testbench.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\University\Term4\Digital System Design\Final\Question7\test\testbench.v|
 !i113 0
-R9
-R0
+R13
+R2

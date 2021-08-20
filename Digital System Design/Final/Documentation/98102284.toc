@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {1}}{2}%
-\contentsline {section}{\numberline {2}سوال شش}{2}%
-\contentsline {subsection}{\numberline {2.1}شرط ورودی \lr {In} نسبت به \lr {CLK}}{2}%
-\contentsline {subsection}{\numberline {2.2}توصیف رفتاری}{2}%
-\contentsline {section}{\numberline {3}شبیه‌سازی و تست کد}{2}%
-\contentsline {section}{\numberline {4}سوال هفت}{2}%
-\contentsline {subsection}{\numberline {4.1}پیاده‌سازی برنامه پایتون}{2}%
-\contentsline {subsection}{\numberline {4.2}تست کردن برنامه}{2}%
