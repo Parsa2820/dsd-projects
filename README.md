@@ -2,9 +2,9 @@
 Sharif University of Technology - Digital System Design and Digital System Design Laboratory Courses - Spring 2021
 
 ## Projects
-- [Implementation of subleq processor (+ subleq assembler for testing purposes)](./Digital%20System%20Design/Midterm/Question3/)
-- [Implementation of a TCAM (Ternary Addressable Memory)](./Digital%20System%20Design/Midterm/Question7/)
-- [Array Multiplier Verilog Code Generator](./Digital%20System%20Design/Midterm/Question9/)
+- [Implementation of subleq processor (+ subleq assembler for testing purposes)](./Digital%20System%20Design/Midterm/98102284/Question3/)
+- [Implementation of a TCAM (Ternary Addressable Memory)](./Digital%20System%20Design/Midterm/98102284/Question7/)
+- [Array Multiplier Verilog Code Generator](./Digital%20System%20Design/Midterm/98102284/Question9/)
 - [Verilog Dataflow to Behavioral Model Converter](./Digital%20System%20Design/Final/Question7/)
 - [Implementation of a Comparator Using Dataflow Modeling](./DSD%20Lab/Exp3)
 - [Implementation of a Stack Using Behavioral Modeling](./DSD%20Lab/Exp4)
