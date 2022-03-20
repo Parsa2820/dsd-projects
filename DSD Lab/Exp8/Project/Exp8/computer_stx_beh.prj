@@ -1,7 +1,0 @@
-verilog isim_temp "complex_multiplier.v"
-verilog isim_temp "complex_adder_subtractor.v"
-verilog isim_temp "tri_state_buffer.v"
-verilog isim_temp "ram.v"
-verilog isim_temp "cpu.v"
-verilog isim_temp "computer.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

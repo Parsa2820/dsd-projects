@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/University/Term4/DSD Lab/Exp9/Project/Exp9/tcam_tb_isim_beh.exe" -prj "D:/University/Term4/DSD Lab/Exp9/Project/Exp9/tcam_tb_beh.prj" "work.tcam_tb" "work.glbl" 

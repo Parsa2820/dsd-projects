@@ -1,7 +1,0 @@
-MO FiveBitAdder NULL FiveBitAdder.v vlg65/_five_bit_adder.bin 1617553518
-MO ElevenBcdDividerChecker NULL ElevenBcdDividerChecker.v vlg48/_eleven_bcd_divider_checker.bin 1617553518
-MO SixBitEqual NULL SixBitEqual.v vlg4F/_six_bit_equal.bin 1617553518
-MO ThreeBcdDividerChecker NULL ThreeBcdDividerChecker.v vlg55/_three_bcd_divider_checker.bin 1617553518
-MO Main NULL Main.v vlg0D/_main.bin 1617553518
-MO HalfAdder NULL HalfAdder.v vlg73/_half_adder.bin 1617516795
-MO FullAdder NULL FullAdder.v vlg73/_full_adder.bin 1617553518

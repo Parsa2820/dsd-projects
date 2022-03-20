@@ -1,7 +1,0 @@
-verilog work "complex_multiplier.v"
-verilog work "complex_adder_subtractor.v"
-verilog work "tri_state_buffer.v"
-verilog work "ram.v"
-verilog work "cpu.v"
-verilog work "computer.v"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

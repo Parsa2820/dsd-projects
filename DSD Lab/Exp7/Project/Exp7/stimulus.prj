@@ -1,3 +1,0 @@
-verilog work "uart_transmitter.v"
-verilog work "uart_receiver.v"
-verilog work "stimulus.v"

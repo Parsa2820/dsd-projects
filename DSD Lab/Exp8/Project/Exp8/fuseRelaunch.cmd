@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/University/Term4/DSD Lab/Exp8/Project/Exp8/computer_isim_beh.exe" -prj "D:/University/Term4/DSD Lab/Exp8/Project/Exp8/computer_beh.prj" "work.computer" "work.glbl" 

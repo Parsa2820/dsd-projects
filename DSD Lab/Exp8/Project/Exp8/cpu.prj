@@ -1,3 +1,0 @@
-verilog work "complex_multiplier.v"
-verilog work "complex_adder_subtractor.v"
-verilog work "cpu.v"
